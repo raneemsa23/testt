@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+body{
+    background-color: rgb(212, 212, 248);
+}
+
+button{
+   
+        width: 10vw;
+        height: 3vw;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        border-radius: .5vw;
+        color: white;
+        font-weight: 700;
+        transform: translate(-50%,-50%);
+        background-color: rgb(112, 112, 226);
+        cursor: pointer;
+}
